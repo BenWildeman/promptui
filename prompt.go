@@ -7,8 +7,8 @@ import (
 	"sync"
 	"text/template"
 
+	"github.com/benwildeman/promptui/screenbuf"
 	"github.com/chzyer/readline"
-	"github.com/manifoldco/promptui/screenbuf"
 )
 
 // Prompt represents a single line text field input with options for validation and input masks.
